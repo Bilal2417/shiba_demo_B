@@ -1,0 +1,63 @@
+.buy-container{
+    padding: 6%;
+}
+.buy-head{
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 5% 0;
+}
+.buy-heading-block{
+    width: 50%;
+}
+.buy-heading{
+    font-size: 4rem;
+    font-weight: 500;
+    letter-spacing: 4px;
+    padding-left: 18px;
+}
+.buy-btn-block{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.buy-content{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.buy-content::after{
+    content: "";
+    background-image: url(/_next/static/media/how-to-three.0fee4daa.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    right: 0;
+    position: absolute;
+    width: 500px;
+    height: 595px;
+}
+.buy-content-block{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: #4c6f4b;
+    color: #fff;
+    padding: 40px;
+    width: 90%;
+    border-radius: 8px;
+    opacity: 0.9;
+    z-index: 1;
+}
+.buy-content-block-head{
+    display: flex;
+    gap: 15px;
+    text-transform: uppercase;
+    font-size: 1.4rem;
+    font-weight: 600;
+    align-items: center;
+}
+.content-desc-block{
+    width: 65%;
+    opacity: 0.9;
+    line-height: 22px;
+}
