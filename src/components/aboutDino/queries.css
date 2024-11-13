@@ -66,8 +66,8 @@
         line-height: 80px;
     }
     .about-content-block {
-        gap: 30px;
-        width: 75%;
+        gap: 30px !important;
+        width: 75% !important;
     }
     .about-content-img img {
         width: 500px !important;
