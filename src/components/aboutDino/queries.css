@@ -18,6 +18,11 @@
         height: 150px;
         margin-top: -40px;
     }
+    .main-content::after {
+        width: 600px;
+        height: 600px;
+        top: -600px;
+    }
     .main-content {
         width: 650px;
         font-size: 1.4em;
