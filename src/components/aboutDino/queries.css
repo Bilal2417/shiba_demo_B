@@ -18,6 +18,9 @@
         height: 150px;
         margin-top: -40px;
     }
+    .pageBlock {
+        margin-top: 300px;
+    }
     .main-content::after {
         width: 600px;
         height: 600px;
