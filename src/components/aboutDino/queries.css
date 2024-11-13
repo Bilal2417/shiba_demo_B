@@ -57,6 +57,9 @@
         font-size: 1.2em;
         line-height: 26px;
     }
+    .about-head {
+        gap: 50px;
+    }
     .about-heading {
         width: 50% !important;
         font-size: 5.2rem !important;
