@@ -34,9 +34,13 @@ body{
 }
 .header-wallet:hover{
     cursor: pointer;
-    transition: 0.3s all;
+    transition: 0.4s all;
     color: #0f3029;
     background-color: #fff;
+}
+.header-wallet:active{
+    background-color: #ffffffc0;
+
 }
 .main-container{
     display: flex;
