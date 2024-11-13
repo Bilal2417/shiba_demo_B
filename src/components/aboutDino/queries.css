@@ -1,3 +1,95 @@
+@media (min-width: 1500px){
+    .jungle-heading-block {
+        text-align: center;
+        opacity: 0.9;
+        font-size: 2.4em;
+        font-weight: 600;
+    }
+    .block-heading {
+        font-size: 8.4rem;
+    }
+    .heading-block img {
+        width: 130px;
+        height: 145px;
+        margin-left: -20px;
+    }
+    .flower-block img {
+        width: 155px;
+        height: 150px;
+        margin-top: -40px;
+    }
+    .main-content {
+        width: 650px;
+        font-size: 1.4em;
+    }
+    .content-block {
+        padding: 25px;
+        gap: 35px;
+    }
+    .content-head {
+        font-size: 28px;
+        line-height: 32px;
+    }
+    .buy-heading {
+        font-size: 5rem;
+        font-weight: 900;
+        letter-spacing: 4px;
+        padding-left: 18px;
+        line-height: 74px;
+    }
+    .header-wallet {
+        padding: 20px 28px;
+        border-radius: 30px;
+        font-size: 1em;
+    }
+    .buy-content-block-head {
+        gap: 25px;
+        font-size: 2rem;
+        font-weight: 800;
+    }
+    .content-desc-block {
+        width: 80%;
+        font-size: 1.2em;
+        line-height: 26px;
+    }
+    .about-heading {
+        width: 50% !important;
+        font-size: 5.2rem !important;
+        text-align: center !important;
+        font-weight: 800 !important;
+        letter-spacing: 3px !important;
+        line-height: 80px;
+    }
+    .about-content-block {
+        gap: 30px;
+        width: 75%;
+    }
+    .about-content-img img {
+        width: 500px !important;
+        height: 500px !important;
+    }
+    .about-content-desc {
+        font-size: 1.2em !important;
+        line-height: 26px !important;
+        font-weight: 600 !important;
+    }
+    .about-content::after {
+        width: 700px !important;
+        height: 800px !important;
+    }
+    .about-content-block-2 ,
+    .short-flex {
+        padding-left: 13% !important;
+    }
+    .about-content-img img {
+        width: 600px !important;
+        height: 600px !important;
+    }
+    .content-width {
+        width: 35% !important;
+        z-index: 1;
+    }
+}
 @media(max-width : 1495px) {
     .about-content-img{
       width: 50%;
