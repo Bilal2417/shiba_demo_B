@@ -15,6 +15,7 @@ export default function Faq() {
 
 
         <Box
+        key={"asap"}
           className="faq-questions-container"
           sx={{
             display: 'flex',
