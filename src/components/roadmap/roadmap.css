@@ -16,9 +16,9 @@ width: 40% !important;
 }
 .roadmap-block-custom{
     width: 40% !important;
-    margin-top: 200px;
+    margin-top: 200px !important;
     justify-content: space-evenly;
-    flex-direction: column;
+    flex-direction: column !important;
 }
 .roadmap-block-content{
     width: 625px;
