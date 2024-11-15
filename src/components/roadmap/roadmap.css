@@ -16,12 +16,12 @@ width: 40% !important;
 }
 .roadmap-block-custom{
     width: 40% !important;
-    margin-top: 200px !important;
+    margin-top: 200px;
     justify-content: space-evenly;
     flex-direction: column !important;
 }
 .roadmap-block-content{
-    width: 625px !important;
+    width: 615px !important;
     background-size: cover;
     background-repeat: no-repeat;
     padding: 60px;
@@ -30,21 +30,21 @@ width: 40% !important;
     gap: 40px;
 }
 .roadmap-1{
-    margin-left: 200px !important;
-    background-image: url("../../images/images/roadmap1-bg.png") !important;
+    margin-left: 100px ;
+    background-image: url("../../images/images/roadmap1-bg.png") ;
 }
 .roadmap-2{
-    background-image: url("../../images/images/roadmap3-bg.png") !important;
+    background-image: url("../../images/images/roadmap3-bg.png") ;
 }
 .roadmap-3{
-    background-image: url("../../images/images/roadmap2-bg.png") !important;
+    background-image: url("../../images/images/roadmap2-bg.png") ;
 }
 .roadmap-4{
-    background-image: url("../../images/images/roadmap4-bg.png") !important;
+    background-image: url("../../images/images/roadmap4-bg.png") ;
 }
 .roadmap-5{
-    margin-left: 200px !important;
-    background-image: url("../../images/images/roadmap5-bg.png") !important;
+    margin-left: 100px ;
+    background-image: url("../../images/images/roadmap5-bg.png") ;
 }
 .block-content-heading{
     font-size: 2.2rem;
