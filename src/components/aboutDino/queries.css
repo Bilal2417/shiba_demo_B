@@ -60,10 +60,10 @@
         font-size: 1.2em;
         line-height: 26px;
     }
-    .about-head {
+    .section-head {
         gap: 50px;
     }
-    .about-heading {
+    .section-heading {
         width: 50% !important;
         font-size: 5.2rem !important;
         text-align: center !important;
@@ -121,7 +121,7 @@
   .about-content-block-3{
     width: 90% !important;
   }
-  .about-heading {
+  .section-heading {
     width: 60% !important;
     font-size: 6.4rem !important;
     text-align: center;
@@ -267,7 +267,7 @@
     font-weight: 800;
 }
     /* /////////////////////////ABOUT SECTION//////////////////////////////////// */
-    .about-heading {
+    .section-heading {
         font-size: 4.4rem !important ;
         line-height: 72px !important;
         font-weight: 800 !important;
@@ -325,7 +325,7 @@
         width: 80% !important;
         font-size: 1.1rem !important;
     }
-    .about-heading {
+    .section-heading {
         width: 70% !important;
     }
   }
@@ -347,7 +347,7 @@
     .content-desc-block {
         font-size: 1.1em;
     }
-    .about-heading {
+    .section-heading {
         font-size: 2.4rem !important;
         line-height: 42px !important;
 width: 40% !important;
@@ -423,7 +423,7 @@ width: 40% !important;
         font-size: 0.9rem;
         line-height: 18px;
     }
-    .about-heading {
+    .section-heading {
         font-size: 2rem !important;
         line-height: 32px !important;
         width: 65% !important;
@@ -484,7 +484,7 @@ width: 40% !important;
     }
   }
   @media ( max-width : 330px) {
-    .about-heading {
+    .section-heading {
         width: 80% !important;
     }
     .about-content-block,
