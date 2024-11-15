@@ -8,21 +8,21 @@ import "./footer.css"
 export default function Footer() {
   return (
     <Box sx={{ display: 'flex', flexDirection: 'column', gap: 3, color: '#fff' }}>
-      {/* Moon Image */}
+
       <Box sx={{ width: '100%', height: '1000px' }}>
         <Image className="footer-moon-image" src={moonImg} alt="moon img" layout="responsive"/>
       </Box>
 
-      {/* Footer Content */}
+
       <Grid container spacing={5} justifyContent="space-evenly">
-        {/* Logo */}
+
         <Grid item xs={12} md={3}>
           <Box sx={{ textAlign: 'center' }} className="header-img">
             <Image src={logo} alt="header-logo" layout="responsive" />
           </Box>
         </Grid>
 
-        {/* Columns */}
+
         <Grid item xs={12} md={2}>
           <Box sx={{ display: 'flex', flexDirection: 'column', gap: 2, fontSize: '1.2em', textTransform: 'uppercase', fontWeight: 800 }}>
             <Typography variant="h6" sx={{ textTransform: 'uppercase', fontWeight: 800 }}>About</Typography>
@@ -57,7 +57,7 @@ export default function Footer() {
           </Box>
         </Grid>
 
-        {/* Connect Wallet Button */}
+
         <Grid item xs={12} md={3}>
           <Box sx={{ textAlign: 'center' }} className="header-img-btn">
             <Button className="header-wallet" sx={{ width: '100%' , borderRadius : "36px" , width : "70%"}}>Connect Wallet</Button>
@@ -65,7 +65,7 @@ export default function Footer() {
         </Grid>
       </Grid>
 
-      {/* Footer End Section */}
+
       <Box sx={{ display: 'flex', flexDirection: 'column', gap: 5, alignItems: 'center', fontSize: '1.3em', width: '90%', margin: 'auto', textAlign: 'center', fontWeight: 600, lineHeight: '24px', paddingBottom: '50px' }}>
         <Box sx={{ textAlign: 'center' }}>
           <Typography variant="body1">
