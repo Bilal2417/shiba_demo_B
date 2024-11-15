@@ -1,9 +1,39 @@
-body{
-    
+.header-section{
     background-size: cover;
     background-image: url("../../images/images/header-bg.png");
+    background-color: #0f3029;
+    background-repeat: no-repeat;
 }
+.info-section{
+    background-size: cover;
+    background-image: url("../../images/images/info-bg.jpg");
+    background-color: #0f3029;
+    background-repeat: no-repeat;
+}
+.tokenomics-section{
+    background-size: cover;
+    background-image: url("../../images/images/tokenomics-bg.jpg");
+    background-color: #0f3029;
+    background-repeat: no-repeat;
+
+}
+.roadmap-section{
+    background-size: cover;
+    background-image: url("../../images/images/roadmap-bg.jpg");
+    background-color: #0f3029;
+    background-repeat: no-repeat;
+}
+.contract-section{
+    background-image: url("../../images/images/smart-faq-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .container{
+    min-height: 100vh;
+    padding: 3% 6% 10%;
+}
+.Container{
     min-height: 100vh;
     padding: 0 0 10%;
 }

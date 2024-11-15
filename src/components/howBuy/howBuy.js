@@ -4,7 +4,7 @@ import "./howBuy.css"
 import treeImg from "../../images/images/how-to-three.png"
 export default function HowBuy () {
     return <>
-    <div className="buy-container">
+    <div className="buy-container" id="howBuy">
 
         <div className="buy-head">
             <div className="buy-heading-block">

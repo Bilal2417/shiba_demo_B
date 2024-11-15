@@ -11,19 +11,20 @@
     gap: 50px;
     position: relative;
 }
-.about-head{
+.section-head{
     display: flex;
     align-items: center;
     justify-content: center;
     text-transform: uppercase;
     flex-direction: column;
     gap: 30px;
+    color: #fff;
 }
-.about-heading{
+.section-heading{
     width: 40%;
     font-size: 4.2rem;
     text-align: center;
-    font-weight: 400;
+    font-weight: 600;
     letter-spacing: 3px;
 }
 .about-q-block{

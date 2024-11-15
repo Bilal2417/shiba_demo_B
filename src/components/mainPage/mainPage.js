@@ -10,8 +10,8 @@ import Image from "next/image"
 import PageContent from "../mainPageContent/content"
 export default function Home () {
     return <>
-    <div className="container">
 
+    <div className="Container">
         <div className="main-header">
             <div className="header-content">
 

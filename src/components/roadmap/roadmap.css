@@ -1,0 +1,73 @@
+.roadmap-content{
+    display: flex;
+    justify-content: space-between;
+    margin: 200px 0;
+}
+.roadmap-block{
+    width: 35%;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.Fst-roadmap-block-custom{
+gap: 450px;
+width: 40% !important;
+}
+.roadmap-block-custom{
+    width: 40% !important;
+    margin-top: 200px;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+.roadmap-block-content{
+    width: 625px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 60px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.roadmap-1{
+    margin-left: 200px;
+    background-image: url("../../images/images/roadmap1-bg.png");
+}
+.roadmap-2{
+    background-image: url("../../images/images/roadmap3-bg.png");
+}
+.roadmap-3{
+    background-image: url("../../images/images/roadmap2-bg.png");
+}
+.roadmap-4{
+    background-image: url("../../images/images/roadmap4-bg.png");
+}
+.roadmap-5{
+    margin-left: 200px;
+    background-image: url("../../images/images/roadmap5-bg.png");
+}
+.block-content-heading{
+    font-size: 2.4rem;
+    font-weight: 800;
+    letter-spacing: 0.8px;
+    line-height: 38px;
+    text-transform: uppercase;
+}
+.block-text-content{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.text-desc-block{
+    display:flex;
+   flex-direction: column;
+   gap: 10px;
+}
+.text-desc-heading{
+    font-weight: 800;
+    font-size: 1.6em;
+}
+.text-description{
+    font-weight: 600;
+    font-size: 1.4em;
+}

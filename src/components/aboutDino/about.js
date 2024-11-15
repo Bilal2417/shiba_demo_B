@@ -8,8 +8,8 @@ import aboutWhyImg from "../../images/images/about-shib-why.png"
 export default function AboutDino () {
     return <>
     <div className="about-container">
-        <div className="about-head">
-            <h2 className="about-heading">about shibadino</h2>
+        <div className="section-head">
+            <h2 className="section-heading">about shibadino</h2>
             <div className="about-q-block">
                 <p className="about-q">what is shibadino?</p>
             </div>
