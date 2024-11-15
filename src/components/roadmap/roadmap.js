@@ -1,5 +1,5 @@
 import "./roadmap.css"
-
+import "../../components/aboutDino/queries.css"
 export default function RoadMap () {
   return <>
   <div className="container">
