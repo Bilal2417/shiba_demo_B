@@ -8,7 +8,7 @@ export default function SmartContract() {
     <Box className="container">
       <Box className="smart-head" sx={{padding : "5% 0"}}>
         <Box className="section-head">
-          <Typography variant="h2" className="section-heading">smart contract</Typography>
+          <Typography className="section-heading" variant="h2" >smart contract</Typography>
         </Box>
 
         <Box className="smart-rocket">
