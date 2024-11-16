@@ -49,6 +49,7 @@
         padding: 20px 28px;
         border-radius: 30px;
         font-size: 1em;
+        width: 100% !important;
     }
     .buy-content-block-head {
         gap: 25px;
@@ -211,8 +212,15 @@
 
 
     /* ///////////////////////////////ROCKET//////////////////////// */
-    .smart-rocket img{
-            height: 400px;
+    .smart-rocket  {
+        height: 200px;
+        display: flex;
+        align-items: center;
+    }
+    .smart-rocket img {
+        height: 200px;
+        max-width: 100%;
+        position: absolute;
     }
     .faq-question-block {
         width: 80% !important;
@@ -283,6 +291,12 @@
         height: 105px;
     }
 
+    .section-slash-dino,
+    .section-slash{
+        font-size: 2rem !important;
+        margin-top: -25px !important;
+        height: 75px !important;
+    }
     /* /////////////////////////BUY SECTION//////////////////////////////////// */
     .buy-heading-block {
         width: 55% !important;
@@ -338,6 +352,16 @@ margin-left: 0px !important;
         font-size: 1.2em !important;
     }
   }
+  @media (max-width : 1045px){
+    .roadmap-block{
+        width: 47% !important;
+}
+  }
+  @media (max-width : 945px){
+    .roadmap-block{
+        width: 44% !important;
+}
+  }
   @media (max-width : 915px){
     .about-content-block {
         width: 90% !important;
@@ -364,6 +388,9 @@ margin-left: 0px !important;
         height: 600px !important;
     }
     /* //////////////////////////////////////ROADMAP//////////////////////////////////////////////// */
+    .roadmap-block{
+        width: 50% !important;
+}
     .roadmap-block-content{
         width: 375px !important ;
         gap: 20px !important;
@@ -388,6 +415,21 @@ margin-left: 0px !important;
         height: 400px !important;
     }
   }
+  @media ( max-width : 900px) {
+.footer-moon-image{
+    display: none;
+}
+.footer-moon-image-block{
+    background-image: url("../../images/images/footer-bg-mob.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+position: absolute;
+}
+.footer-lower-block{
+    margin-top: 400px;
+    z-index: 1;
+}
+}
   @media ( max-width : 850px) {
     .about-content-block,
     .about-content-block-2 {
@@ -412,6 +454,9 @@ margin-left: 0px !important;
     .section-heading {
         width: 70% !important;
     }
+    .roadmap-block{
+        width: 47% !important;
+}
     /* /////////ROCKET//////////////// */
     .faq-question-block {
         width: 75% !important;
@@ -424,6 +469,16 @@ margin-left: 0px !important;
     }
   }
 
+  @media ( max-width : 790px) {
+    .roadmap-block{
+        width: 44% !important;
+}
+}
+  @media ( max-width : 745px) {
+    .roadmap-block{
+        width: 42% !important;
+}
+}
   @media ( max-width : 725px) {
     .buy-content {
      display: flex;
@@ -535,6 +590,13 @@ margin-left: 0px !important;
     height: 35px !important;
 }
   }
+  @media ( max-width: 600px){
+    .section-slash-dino,
+    .section-slash{
+        height: 45px !important;
+        font-size: 1.2rem !important;
+    }
+}
   @media ( max-width: 520px){
     .main-content{
         width: 90%;
@@ -610,6 +672,7 @@ margin-left: 0px !important;
         top: -300px;
         left: 15px;
     }
+
     /* ///////////////////////////ROADMAP//////////////////////// */
     .roadmap-block-content {
         padding: 45px !important;
@@ -710,6 +773,9 @@ margin-left: 0px !important;
     }
     .jungle-heading-block {
         font-size: 0.6em;
+    }
+    .smart-rocket img {
+        height: 150px !important;
     }
     /* ////////////////////////////////////////ROADMAP//////////////////////////////// */
     .roadmap-block-content {

@@ -47,3 +47,12 @@
     height: 1600px !important;
     margin-top: -500px;
 }
+.css-1sre6vk-MuiGrid-root>.MuiGrid-item {
+    padding-left: 60px !important;
+}
+.header-img-btn{
+    min-width: 300px;
+}
+.header-wallet{
+    width: 100%;
+}

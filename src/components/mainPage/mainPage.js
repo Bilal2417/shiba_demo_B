@@ -59,5 +59,6 @@ export default function Home () {
     
 </div>
     </div>
+    <div className="section-slash-dino">$dino</div>
     </>
 }

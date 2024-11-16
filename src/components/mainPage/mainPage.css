@@ -119,3 +119,18 @@
     background-image: url("../../images/images/head-bottom-bg.png");
     background-size: contain;
 }
+.section-slash-dino{
+    width: 100%;
+    height: 120px;
+    position: absolute;
+    margin-top: -100px;
+    background-color: #4d6f4a;
+    color: #fff;
+    font-weight: 800;
+    text-transform: uppercase;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    opacity: 0.8;
+}

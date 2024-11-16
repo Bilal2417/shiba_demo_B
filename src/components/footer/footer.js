@@ -9,12 +9,12 @@ export default function Footer() {
   return (
     <Box sx={{ display: 'flex', flexDirection: 'column', gap: 3, color: '#fff' }}>
 
-      <Box sx={{ width: '100%', height: '1000px' }}>
+      <Box className="footer-moon-image-block" sx={{ width: '100%', height: '1000px' }}>
         <Image className="footer-moon-image" src={moonImg} alt="moon img" layout="responsive"/>
       </Box>
 
 
-      <Grid container spacing={5} justifyContent="space-evenly">
+      <Grid className="footer-lower-block" container spacing={5} justifyContent="space-evenly">
 
         <Grid item xs={12} md={3}>
           <Box sx={{ textAlign: 'center' }} className="header-img">
